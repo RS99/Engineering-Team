@@ -11,10 +11,51 @@
 
 ## 🧠 Overview
 
-**Engineering-Team** is a fully customizable **multi-agent AI engineering automation system** built by **Rahul Sharma** using the **crewAI framework**.  
-It showcases how coordinated AI agents can autonomously perform software engineering tasks — from planning workflows and generating modular code to running tests and producing structured reports.
+**Engineering-Team** is an advanced **Agentic AI engineering pipeline** designed by **Rahul Sharma**, built on top of the crewAI framework.  
+It simulates a complete software engineering workflow by orchestrating multiple specialized AI agents — each with its own role, responsibilities, and expertise.
 
-Designed as an AI-powered engineering pipeline, this system highlights the potential of autonomous agents to support real-world software development and intelligent automation.
+This system behaves like a fully staffed engineering department where AI agents collaborate end-to-end to produce real, production-ready software. The pipeline includes:
+
+### 🔹 **Engineering Lead (Architecture & Design Agent)**  
+Responsible for converting high-level requirements into complete system designs.  
+This agent produces:
+- Backend architecture  
+- Class & method signatures  
+- One-module design specs  
+- Clear, testable requirements  
+
+### 🔹 **Backend Engineer (Python Implementation Agent)**  
+Implements the design produced by the Engineering Lead.  
+This agent generates:
+- Clean, modular, self-contained Python modules  
+- Fully functional class implementations  
+- Ready-to-test backend logic  
+
+### 🔹 **Frontend Engineer (Gradio UI Agent)**  
+Builds interactive UI interfaces for the backend logic.  
+This agent produces:
+- A complete `app.py` Gradio interface  
+- A UI demonstrating the backend module  
+- A user-ready local application  
+
+### 🔹 **Test Engineer (QA / Unit Test Agent)**  
+Ensures reliability through automated test generation.  
+This agent produces:
+- Unit test files  
+- `test_<module_name>.py` modules  
+- Coverage of key backend behaviors  
+
+---
+
+Together, these agents form a **true Agentic AI system** capable of:
+
+- Turning human requirements into detailed engineering specs  
+- Converting specs into backend code  
+- Auto-generating front-end UI  
+- Producing complete unit tests  
+- Creating a fully working software module in one automated pipeline  
+
+This project demonstrates Rahul Sharma’s expertise in **AI automation, multi-agent collaboration, software engineering workflows, and intelligent system design**, showcasing how AI teams can replicate real-world engineering processes.
 
 ---
 
