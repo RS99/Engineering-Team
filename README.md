@@ -1,42 +1,51 @@
 # 🚀 Engineering-Team  
 ### A Multi-Agent AI Engineering System by Rahul Sharma
 
-**Engineering-Team** is a customizable multi-agent AI system built using the **crewAI** framework.  
-This project demonstrates how specialized AI agents can collaborate to plan, design, generate, and test engineering solutions through an automated workflow.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![CrewAI](https://img.shields.io/badge/Framework-crewAI-purple)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey)
 
 ---
 
-## ⭐ Key Capabilities
+## 🧠 Overview
 
-### 🤖 Multi-Agent Collaboration  
-Multiple agents with unique roles and goals work together to solve engineering tasks.
+**Engineering-Team** is a fully customizable **multi-agent AI automation system** built by **Rahul Sharma**, powered by the **crewAI framework**.
 
-### 🧩 Configurable Architecture  
-Agents, tasks, tools, and behavior are all defined in YAML and Python modules.
+This system demonstrates how multiple specialized AI agents can collaborate to:
 
-### 🛠️ Custom Tools  
-Extend agent functionality using Python tools to perform real actions such as reading files, generating code, or analyzing data.
+- Plan engineering workflows  
+- Generate modular code  
+- Build system components  
+- Test functionality  
+- Produce structured reports  
 
-### 📄 Auto-Generated Output  
-Agents generate real engineering artifacts such as:
-- `report.md`
-- `accounts.py`
-- `app.py`
-- `test_accounts.py`
+It serves as a foundation for real-world AI engineering automation and autonomous development systems.
 
-Output is stored in the `/output` folder.
+---
 
-### ⚡ Fast Environment Setup  
-Powered by `uv` for quick Python environment creation and reproducible dependencies.
+## 🖼️ Project Banner (Optional)
+> You can create an image and upload it here later  
+> *(I can generate one for you if you want!)*
+
+---
+
+## ⭐ Features
+
+- 🤖 **Multi-Agent Collaboration** — each agent has unique skills & responsibilities  
+- 🛠️ **Custom Tools** — extend agent abilities with Python functions  
+- 🧩 **Config-Driven Design** — define agents & tasks through YAML  
+- 📄 **Automatic Code & Report Generation**  
+- ⚡ **Fast Dependency Setup** via UV  
+- 🧠 **Supports OpenAI, Claude, Gemini, Groq, OpenRouter**  
 
 ---
 
 # 🔐 API Keys Required
 
-This project requires API keys so the agents can communicate with LLM providers and tools.
+This project uses LLMs to power the agents.  
+All keys go inside a `.env` file in the project root.
 
-Create a `.env` file in your project root and add the keys as shown below.
-
-### **1. OpenAI API Key (Required)**  
-Used by crewAI to run GPT-based agents.
-
+### **1. Required Key**
+**Gemini**
