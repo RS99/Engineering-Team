@@ -1,54 +1,42 @@
-# EngineeringTeam Crew
+# 🚀 Engineering-Team  
+### A Multi-Agent AI Engineering System by Rahul Sharma
 
-Welcome to the EngineeringTeam Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+**Engineering-Team** is a customizable multi-agent AI system built using the **crewAI** framework.  
+This project demonstrates how specialized AI agents can collaborate to plan, design, generate, and test engineering solutions through an automated workflow.
 
-## Installation
+---
 
-Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+## ⭐ Key Capabilities
 
-First, if you haven't already, install uv:
+### 🤖 Multi-Agent Collaboration  
+Multiple agents with unique roles and goals work together to solve engineering tasks.
 
-```bash
-pip install uv
-```
+### 🧩 Configurable Architecture  
+Agents, tasks, tools, and behavior are all defined in YAML and Python modules.
 
-Next, navigate to your project directory and install the dependencies:
+### 🛠️ Custom Tools  
+Extend agent functionality using Python tools to perform real actions such as reading files, generating code, or analyzing data.
 
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
+### 📄 Auto-Generated Output  
+Agents generate real engineering artifacts such as:
+- `report.md`
+- `accounts.py`
+- `app.py`
+- `test_accounts.py`
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+Output is stored in the `/output` folder.
 
-- Modify `src/engineering_team/config/agents.yaml` to define your agents
-- Modify `src/engineering_team/config/tasks.yaml` to define your tasks
-- Modify `src/engineering_team/crew.py` to add your own logic, tools and specific args
-- Modify `src/engineering_team/main.py` to add custom inputs for your agents and tasks
+### ⚡ Fast Environment Setup  
+Powered by `uv` for quick Python environment creation and reproducible dependencies.
 
-## Running the Project
+---
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+# 🔐 API Keys Required
 
-```bash
-$ crewai run
-```
+This project requires API keys so the agents can communicate with LLM providers and tools.
 
-This command initializes the engineering_team Crew, assembling the agents and assigning them tasks as defined in your configuration.
+Create a `.env` file in your project root and add the keys as shown below.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+### **1. OpenAI API Key (Required)**  
+Used by crewAI to run GPT-based agents.
 
-## Understanding Your Crew
-
-The engineering_team Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the EngineeringTeam Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
