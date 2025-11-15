@@ -25,10 +25,6 @@ It serves as a foundation for real-world AI engineering automation and autonomou
 
 ---
 
-## 🖼️ Project Banner (Optional)
-> You can create an image and upload it here later  
-> *(I can generate one for you if you want!)*
-
 ---
 
 ## ⭐ Features
