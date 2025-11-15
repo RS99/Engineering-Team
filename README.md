@@ -55,8 +55,6 @@ Together, these agents form a **true Agentic AI system** capable of:
 - Producing complete unit tests  
 - Creating a fully working software module in one automated pipeline  
 
-This project demonstrates Rahul Sharma’s expertise in **AI automation, multi-agent collaboration, software engineering workflows, and intelligent system design**, showcasing how AI teams can replicate real-world engineering processes.
-
 ---
 
 ## ⭐ Features
