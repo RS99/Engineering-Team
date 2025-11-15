@@ -11,35 +11,26 @@
 
 ## 🧠 Overview
 
-**Engineering-Team** is a fully customizable **multi-agent AI automation system** built by **Rahul Sharma**, powered by the **crewAI framework**.
+**Engineering-Team** is a fully customizable **multi-agent AI engineering automation system** built by **Rahul Sharma** using the **crewAI framework**.  
+It showcases how coordinated AI agents can autonomously perform software engineering tasks — from planning workflows and generating modular code to running tests and producing structured reports.
 
-This system demonstrates how multiple specialized AI agents can collaborate to:
-
-- Plan engineering workflows  
-- Generate modular code  
-- Build system components  
-- Test functionality  
-- Produce structured reports  
-
-It serves as a foundation for real-world AI engineering automation and autonomous development systems.
+Designed as an AI-powered engineering pipeline, this system highlights the potential of autonomous agents to support real-world software development and intelligent automation.
 
 ---
 
 ## ⭐ Features
 
-- 🤖 **Multi-Agent Collaboration** — each agent has unique skills & responsibilities  
+- 🤖 **Multi-Agent Collaboration** — specialized agents working together  
 - 🛠️ **Custom Tools** — extend agent abilities with Python functions  
-- 🧩 **Config-Driven Design** — define agents & tasks through YAML  
-- 📄 **Automatic Code & Report Generation**  
-- ⚡ **Fast Dependency Setup** via UV  
-- 🧠 **Supports OpenAI, Claude, Gemini, Groq, OpenRouter**  
+- 🧩 **Config-Driven Design** — define agents and tasks via YAML  
+- 📄 **Automated Code & Report Generation**  
+- ⚡ **Fast Environment Setup (UV)**  
+- 🧠 **Supports OpenAI, Gemini, Claude, Groq, OpenRouter**  
 
 ---
 
 # 🔐 API Keys Required
 
-This project uses LLMs to power the agents.  
-All keys go inside a `.env` file in the project root.
+All keys must be placed in a `.env` file at the project root.
 
-### **1. Required Key**
-**Gemini**
+### **Required Key (Default Provider)**
