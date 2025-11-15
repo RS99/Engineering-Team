@@ -25,8 +25,6 @@ It serves as a foundation for real-world AI engineering automation and autonomou
 
 ---
 
----
-
 ## ⭐ Features
 
 - 🤖 **Multi-Agent Collaboration** — each agent has unique skills & responsibilities  
